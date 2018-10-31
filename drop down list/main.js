@@ -8,7 +8,7 @@ var titleFld = $("#title");
 var addBtn = $("#addBtn");
 
 //select the todo list 
-var todos= $("#todos");
+var todos= $("#todos").draggable();
 
 addBtn.click(addTodo);
  // add todo
